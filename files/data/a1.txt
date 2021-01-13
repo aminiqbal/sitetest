@@ -1,0 +1,122 @@
+@font-face
+{
+	font-family: "default";
+	src: url("default.ttf");
+}
+
+body
+{
+	background-color: #020202;
+}
+
+.mainContainer
+{
+	width: 1080px;
+	height: 580px;	
+	margin: auto;
+	text-align: center;
+	background-color: #FEFEEE;
+}
+
+.navbar
+{
+	width: 220px;
+	height: 580px;
+	float: left;
+	background-color: #009EE8;
+}
+
+.secondaryContainer
+{
+	width: 860px;
+	height: 580px;
+	float: right;
+	background-image: url("background.png");
+}
+
+.button01
+{
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 72.5px;
+	font-family: "default";
+	margin: auto;
+	background-color: #009EE8;
+	text-decoration: none;
+	color: #FEFEEE;
+	transition: 0.4s;
+}
+
+.button02
+{
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 72.5px;
+	font-family: "default";
+	margin: auto;
+	background-color: #008CCE;
+	text-decoration: none;
+	color: #FEFEEE;
+	transition: 0.4s;
+}
+
+.button01:hover
+{
+	background-color: #CC0074;
+	cursor: pointer;
+}
+
+.button02:hover
+{
+	background-color: #CC0074;
+	cursor: pointer;
+}
+
+.button01 span
+{
+	display: table-cell;
+	width: 220px;
+	height: 72.5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.button02 span
+{
+	display: table-cell;
+	width: 220px;
+	height: 72.5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.itemSelection
+{
+	display: block;
+	width: 220px;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.displayArea
+{
+	width: 840px;
+	height: 520px;
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #020202;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+.codeArea
+{
+	font-family: "default";
+	tab-size: 2;
+	float: left;
+	justify-content: left;
+}
